@@ -5,6 +5,7 @@ presubmits:
     decorate: true
     always_run: false
     optional: true
+    skip_report: true
     run_if_changed: 'azure.*\.go'
     path_alias: k8s.io/kubernetes
     branches:
