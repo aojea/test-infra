@@ -17,10 +17,6 @@ dashboards:
 - name: sig-network-external-dns
 - name: sig-network-gce
   dashboard_tab:
-    - name: gce-cos-1.11-ingress
-      test_group_name: ci-kubernetes-e2e-gce-cos-k8sstable3-ingress
-      alert_options:
-        alert_mail_to_addresses: kubernetes-sig-network-test-failures@googlegroups.com
     - name: gce-cos-1.12-ingress
       test_group_name: ci-kubernetes-e2e-gce-cos-k8sstable2-ingress
       alert_options:
